@@ -1,5 +1,5 @@
 <template>
-    <page-container>
+    <j-page-container>
         <pro-search
             :columns="columns"
             target="northbound-aliyun"
@@ -15,7 +15,7 @@
                 </div>
             </div>
         </FullPage>
-    </page-container>
+    </j-page-container>
 </template>
 
 <script setup>

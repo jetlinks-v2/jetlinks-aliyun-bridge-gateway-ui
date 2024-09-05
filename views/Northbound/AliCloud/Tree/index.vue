@@ -18,9 +18,9 @@
                 :class="{ selected: i.id === selectedId }"
             >
                 <div class="itemText">
-                    <Ellipsis style="width: 100% ">
+                    <j-ellipsis style="width: 100% ">
                         {{ i.name }}
-                    </Ellipsis>
+                    </j-ellipsis>
                 </div>
                 <div
                     class="status"
